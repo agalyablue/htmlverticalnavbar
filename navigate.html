@@ -54,8 +54,6 @@
 <body>
 
 <h2>Navigation</h2>
-<p>Navigation form:</p>
-
 <div class="tab">
     <button class="tablinks" onclick="openCity(event, 'Sign In')" id="defaultOpen">Sign In</button>
     <button class="tablinks" onclick="openCity(event, 'Register')">Register</button>
@@ -63,19 +61,108 @@
 </div>
 
 <div id="Sign In" class="tabcontent">
-    <h3>Sign In</h3>
-    <p>Sign In <a href= "Signin.html" target="_self">Go to Sign In</a></p>
-</div><
+
+    <p>
+    <table width="25%" align="center">
+        <tr><td align="center" colspan="2">Sign In</td></tr>
+        <tr>
+            <td colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+        </tr>
+
+        <tr>
+            <td>Username</td>
+            <td><input type="text" id="Username" name="Username" style="width:200px"/>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+        </tr>
+        <tr>
+            <td>Password</td>
+            <td><input type="text" id="Password" name="Password" style="width:200px"/>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+        </tr>
+        <tr>
+            <td align="center" colspan="2">
+                <input type="submit" value="Login" style="width:100px"/></td>
+        </tr>
+    </table>
+
+    </p>
+</div>
 
 <div id="Register" class="tabcontent">
-    <h3>Register</h3>
-    <p>Register form.</p>
+    <p>
+    <table width="20%" align="center">
+        <tr><td align="center" colspan="2">Register</td></tr>
+        <tr>
+            <td colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+        </tr>
+        <tr>
+            <td>First Name</td>
+            <td><input type="text" id="First_Name" style="width:200px"/>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+        </tr>
+        <tr>
+            <td>Last Name</td>
+            <td><input type="text" id="Last_Name" style="width:200px"/>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td><input type="text" id="Email" style="width:200px"/>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+        </tr>
+        <tr>
+            <td align="center" colspan="2">
+                <input type="submit" value="Register" style="width:100px"/></td>
+        </tr>
+    </table>
+    </p>
 </div>
 
 
 <div id="Contact Us" class="tabcontent">
-    <h3>Contact Us</h3>
-    <p>Contact Us form.</p>
+    <p>
+    <table width="25%" align="center">
+        <tr><td align="center" colspan="2">Contact Us</td></tr>
+        <tr>
+            <td colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td><input type="text" id="Email" name="Email" style="width:300px"/>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+        </tr>
+        <td>Message</td>
+        <td><input type="text" id="Message" name="Message" style="width:300px;height:140px"/>
+        </td>
+        </tr>
+        <TR>
+            <td colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+        <tr>
+            <td align="center" colspan="2">
+
+                <input type="submit" value="Submit Message" style="width:100px"/></td>
+        </tr>
+    </table>
+    </p>
 </div>
 
 <script>
